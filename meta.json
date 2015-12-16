@@ -4,23 +4,46 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "mday",
+            "title":"Day"
+        },
+        {
+            "id": "month_name",
+            "title":"Month"
+        },
+        {
+            "id": "temp",
+            "title":"Temperature ( F )"
+        },
+        {
+            "id": "condition",
+            "title":"Weather"
+        },
+        {
+            "id": "wdir",
+            "title":"Wind Direction"
+        },
+        {
+            "id": "humidity",
+            "title":"Humidity"
+        },
+        {
+            "id": "uvi",
+            "title":"UVI"
         }
-      */
     ],
-    "title": "wunderground-get_hourly_c" /* Required.A display name for the module */
+    "icon": "dex-wunderground",
+    "title": "Weather Underground - Get Hourly (C)" /* Required.A display name for the module */
 }

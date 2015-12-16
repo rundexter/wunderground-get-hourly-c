@@ -19,7 +19,7 @@ var pickInputs = {
         },
         'temp': {
             keyName: 'hourly_forecast',
-            fields: ['temp.english']
+            fields: ['temp.metric']
         },
         'condition': {
             keyName: 'hourly_forecast',

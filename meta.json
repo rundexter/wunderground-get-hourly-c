@@ -25,7 +25,7 @@
         },
         {
             "id": "temp",
-            "title":"Temperature ( F )"
+            "title":"Temperature ( C )"
         },
         {
             "id": "condition",

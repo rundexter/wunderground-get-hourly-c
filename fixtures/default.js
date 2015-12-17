@@ -62,9 +62,9 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                country: 'CA',
-                city: 'San_Francisco' +
-                ''
+                country: 'US',
+                city: 'CA',
+                state: 'San_Francisco'
             }
         }
     }

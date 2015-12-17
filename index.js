@@ -6,7 +6,8 @@ var apiURL = 'http://api.wunderground.com/api/';
 
 var pickInputs = {
         'country': 'country',
-        'city': 'city'
+        'city': 'city',
+        'state': 'state'
     },
     pickOutputs = {
         'mday': {

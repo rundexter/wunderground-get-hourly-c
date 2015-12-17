@@ -11,6 +11,10 @@
         {
             "id": "city",
             "title":"City"
+        },
+        {
+            "id": "state",
+            "title":"State"
         }
     ],
     //Required. Outputs the module emits.

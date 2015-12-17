@@ -80,11 +80,11 @@ module.exports = {
         if (requestData.country)
             uriData.push(requestData.country);
 
-        if (requestData.city)
-            uriData.push(requestData.city);
-
         if (requestData.state)
             uriData.push(requestData.state);
+
+        if (requestData.city)
+            uriData.push(requestData.city);
 
 
         if (uriData.length < 2) {

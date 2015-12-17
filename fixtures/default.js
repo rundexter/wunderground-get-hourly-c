@@ -63,8 +63,8 @@ module.exports = _.merge({
              */
             input: {
                 country: 'US',
-                city: 'CA',
-                state: 'San_Francisco'
+                state: 'CA',
+                city: 'San_Francisco'
             }
         }
     }
